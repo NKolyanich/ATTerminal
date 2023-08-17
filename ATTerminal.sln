@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATTerminal", "UBUTester\ATTerminal.csproj", "{778487EA-990F-4090-966B-364830D573A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATTerminal", "ATTerminal\ATTerminal.csproj", "{778487EA-990F-4090-966B-364830D573A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

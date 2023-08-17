@@ -1,6 +1,6 @@
-﻿namespace UBUTester
+﻿namespace ATTerminal
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Требуется переменная конструктора.

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 
 
-namespace UBUTester
+namespace ATTerminal
 {
     public enum Command
     {
@@ -37,14 +37,14 @@ namespace UBUTester
         public byte[] Data;
     };
 
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         Timer loop;
         int AnswerFlag = 0; // 0 - ожидаем ответной команды. 1 - ожидаем кода ответа. 2 - ожидаем параметров ответа
         const int BUF_LEIGHT = 255;
         byte[] readBuf = new byte[BUF_LEIGHT];
         MSGRead[] mgread = new MSGRead[10];
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
 
